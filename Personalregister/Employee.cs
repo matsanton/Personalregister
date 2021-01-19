@@ -14,5 +14,7 @@ namespace Personalregister
             Name = name;
             Salary = salary;
         }
+
+
     }
 }

@@ -20,12 +20,12 @@ namespace Personalregister
 
         public void Print()
         {
+            Console.WriteLine();
             foreach (var e in employees)
             {
                 Console.WriteLine("{0} har lön {1} ", e.Name, e.Salary);
             }
         }
-
 
     }
 }
