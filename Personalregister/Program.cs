@@ -12,6 +12,8 @@ namespace Personalregister
             staff.AddEmployee(new Employee("Anna", 10000));
             staff.AddEmployee(new Employee("Bertil", 20000));
 
+            staff.Print();
+
         }
     }
 }
